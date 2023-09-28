@@ -18,7 +18,8 @@
 
 header {
   width: 100%;
-  background-color: rgb(16, 152, 185);
+  background: rgb(10, 103, 116);
+  background: linear-gradient(0deg, rgba(10, 103, 116, 1) 0%, rgba(11, 130, 147, 1) 3%, rgba(0, 212, 255, 1) 100%);
 }
 
 body {
@@ -30,23 +31,18 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 3rem;
-}
 .image {
   padding-top: 10px;
   overflow: auto;
 }
 .main-box {
-  
   background-color: white;
   margin-top: 30px;
   box-sizing: border-box;
   padding: 30px 20px;
   font-size: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   line-height: 30px;
-
 }
 
 .box p {
@@ -54,37 +50,32 @@ h1 {
   color: white;
   font-family: "Poppins";
   font-size: larger;
-  
-
-
 }
 
 img + p {
   padding-bottom: 20px;
-
-
 }
 .shadow {
-  box-shadow: rgba(92, 90, 90, 0.61) 2px 2px 2px 2px ;
+  box-shadow: rgba(92, 90, 90, 0.61) 2px 2px 2px 2px;
 }
 h1 {
   font-size: 40px;
   line-height: 50px;
-  
+  padding: 20px 0;
 }
 h2 {
   padding: 10px;
   color: rgba(128, 128, 128, 0.658);
   font-size: 19px;
-  
 }
 ul li {
-   margin: initial;
-   padding: initial;
+  margin: initial;
+  padding: initial;
   list-style-type: initial;
   list-style: initial;
 }
-ul, ol{
+ul,
+ol {
   margin-left: 20px;
   padding-left: 10px;
 }
@@ -92,7 +83,6 @@ code {
   background-color: rgb(221, 218, 218);
   border-radius: 8px;
   border: solid 2px rgb(180, 179, 179);
-  
 }
 ol li {
   list-style-type: decimal;
@@ -101,22 +91,22 @@ span {
   font-weight: bold;
   color: rgb(177, 33, 182);
 }
-li:last-child, p {
+li:last-child,
+p {
   padding-bottom: 20px;
 }
 thead {
-  font-style:italic;
+  font-style: italic;
   font-weight: 600;
 }
 tr:nth-child(3),
 tr:nth-child(5) {
   background-color: rgba(223, 221, 221, 0.452);
-  border-top: 1px rgba(110, 109, 109, 0.363) solid; 
+  border-top: 1px rgba(110, 109, 109, 0.363) solid;
   border-bottom: 1px rgba(110, 109, 109, 0.363) solid;
 }
 tbody tr:first-child {
   background-color: rgb(66, 132, 245);
-  
 }
 tbody tr:first-child td {
   padding: 20px;
@@ -131,14 +121,87 @@ td {
   padding: 20px;
   text-align: center;
 }
-
+tbody tr:last-child {
+  border-bottom: 2px rgb(7, 31, 253) solid;
+  padding-bottom: 20px;
+}
+iframe {
+  width: 100%;
+  border-radius: 20px;
+}
+.video {
+  padding-bottom: 60px;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
 
 /* FORM */
+.newsletter {
+  background-color: rgba(223, 221, 221, 0.452);
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.newsletter h1 {
+  text-align: center;
+  font-size: 35px;
+}
+input {
+  font-size: 20px;
+  border: unset;
+  border-bottom: dotted;
+  padding: 10px;
+}
+button {
+  background-color: rgb(26, 110, 253);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: unset;
+}
+.related h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.related div {
+  background-color: rgba(223, 221, 221, 0.452);
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px rgba(87, 86, 86, 0.445) solid;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.related a {
+  display: block;
+}
+
+.related p {
+  padding-bottom: 35px;
+}
 
 /* ELEMENTI NELL' ASIDE */
+aside {
+  float: right;
+}
 
 /* FOOTER */
+footer div {
+  background: rgb(10, 103, 116);
+  background: linear-gradient(180deg, rgba(10, 103, 116, 1) 0%, rgba(1, 46, 52, 1) 50%);
+  margin-top: 20px;
+  padding: 20px;
+  color: white;
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 18px;
+}
+footer div h2 {
+  color: white;
+  padding-bottom: 28px;
+}
+footer div a {
+  color: fuchsia;
+}
