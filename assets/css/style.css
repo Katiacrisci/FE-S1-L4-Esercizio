@@ -54,7 +54,7 @@ h1 {
   color: white;
   font-family: "Poppins";
   font-size: larger;
-  font-weight: bold;
+  
 
 
 }
@@ -84,7 +84,7 @@ ul li {
   list-style-type: initial;
   list-style: initial;
 }
-ul {
+ul, ol{
   margin-left: 20px;
   padding-left: 10px;
 }
@@ -94,9 +94,43 @@ code {
   border: solid 2px rgb(180, 179, 179);
   
 }
-
-
-
+ol li {
+  list-style-type: decimal;
+}
+span {
+  font-weight: bold;
+  color: rgb(177, 33, 182);
+}
+li:last-child, p {
+  padding-bottom: 20px;
+}
+thead {
+  font-style:italic;
+  font-weight: 600;
+}
+tr:nth-child(3),
+tr:nth-child(5) {
+  background-color: rgba(223, 221, 221, 0.452);
+  border-top: 1px rgba(110, 109, 109, 0.363) solid; 
+  border-bottom: 1px rgba(110, 109, 109, 0.363) solid;
+}
+tbody tr:first-child {
+  background-color: rgb(66, 132, 245);
+  
+}
+tbody tr:first-child td {
+  padding: 20px;
+  text-align: center;
+  border: 1px rgba(255, 255, 255, 0.445) solid;
+  color: white;
+}
+tbody tr:first-child td:first-child {
+  vertical-align: bottom;
+}
+td {
+  padding: 20px;
+  text-align: center;
+}
 
 
 /* ELEMENTI NEL MAIN - ARTICLE */
